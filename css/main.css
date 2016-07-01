@@ -301,6 +301,12 @@ section#work button :focus{
 	display: none;
 }
 
+
+.containermix .mix  img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 /*seccion modal*/
 
 div.modal-body {
