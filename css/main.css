@@ -96,6 +96,10 @@ section#intro .bg_img i{
 	background-color:transparent;
 	}
 	
+.navbar-brand img{
+	height:180%;
+	}
+	
 /**animaciones**/
 
 .anima1, .anima2, .anima3, anima4, anima5{
@@ -317,6 +321,52 @@ div.modal-body {
 div.modal-body img{
 	max-height:100%;
 }
+
+div.modal-body .btn-default{
+    border: 0;
+    height: 40px;
+    margin: 0 8px;
+    color: #ffffff;
+	text-shadow:none;
+	background-color:#0FA9AC;
+	background-image:none;
+    font-size: 1.4em;
+    font-family: 'Roboto', serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div.modal-body .btn{
+  margin-top: 30px;
+}
+
+div.modal-body .cerrar{
+  margin-top: 30px!important;
+}
+
+div.modal-body .cerrar{
+    border: 0;
+    height: 40px;
+    margin: 0 8px;
+    color: #ffffff !important;
+	text-shadow:none;
+	background-color:#CC272A;
+	background-image:none;
+    font-size: 1.4em;
+    font-family: 'Roboto', serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div.modal-body p{
+    color: #393737;
+    font-size: 1.2em;
+	line-height:1.1em;
+    font-family: 'Roboto', serif;
+
+}
+
+
 
 /*contacto*/
 
